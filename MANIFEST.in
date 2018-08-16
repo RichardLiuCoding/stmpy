@@ -1,4 +1,7 @@
 include README.md
-include stmpy/color/maps/*
-include stmpy/doc/*
-include stmpy/doc/tex/*
+include stmpy/color/maps/*.txt
+include stmpy/color/maps/*.mat
+include stmpy/doc/*.pdf
+include stmpy/doc/*.html
+include stmpy/doc/*.png
+include stmpy/doc/tex/*.tex
