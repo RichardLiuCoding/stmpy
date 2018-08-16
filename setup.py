@@ -7,5 +7,12 @@ setup(
     version = '0.1',
     description = 'A collection of data anaysis tools for STM',
     licence = 'Harvard University',
-    packages = ['stmpy']
+    packages = ['stmpy'],
+    install_requires=[
+          'numpy',
+          'scipy',
+          'matplotlib',
+          'scikit-image',
+          
+      ]
     )
