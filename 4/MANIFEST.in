@@ -1,0 +1,4 @@
+include README.md
+include stmpy/color/maps/*
+include stmpy/doc/*
+include stmpy/doc/tex/*
