@@ -259,7 +259,7 @@ def save_spy(data, filePath, precision=None, objects=[]):
         elif isinstance(item, list):
             write_lst(name, item)
         elif isinstance(item, tuple):
-            print 'Tuples present...'
+            print('Tuples present...')
         elif isinstance(item, file): 
             pass
         elif isinstance(item, str) or isinstance(item, unicode):
